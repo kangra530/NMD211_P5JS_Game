@@ -1,0 +1,9 @@
+web-friendly fonts: https://blog.hubspot.com/website/web-safe-html-css-fonts
+
+text shadow: https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+
+looking for brown hex codes for font color:  https://htmlcolorcodes.com/colors/shades-of-brown/
+
+rounded corners for hover: https://www.tutorialspoint.com/set-a-rounded-active-and-hover-button-with-css
+
+center canvas: https://github.com/processing/p5.js/wiki/Positioning-your-canvas

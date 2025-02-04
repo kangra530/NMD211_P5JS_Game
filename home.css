@@ -1,0 +1,202 @@
+h1,
+h2,
+h3,
+h4,
+h5, 
+h6{
+	color: #4A0404;
+}
+body {
+    margin: 200px;
+    padding: 0px;
+    background-image: url("images/pageFrame.png");
+	background-size: 100% 100%; /* or specific values like 800px 600px */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #7D8F69;
+}
+header{
+	text-align:center; 
+	font-size:47px;
+	font-family: impact, arial, sans-serif; /*https://blog.hubspot.com/website/web-safe-html-css-fonts*/
+}
+p{
+	font-size: 20px;
+	font-family: "Lucida Console", monospace;
+}
+nav {
+	 margin-bottom:80px;
+     font-size:30px;
+     text-align: center;
+     font-family: courier, "times new roman", monospace;
+}
+nav ul {
+     list-style-type: none;
+     margin: 0px;
+     padding: 0px;
+}
+nav ul li {
+     display: inline-block;
+     margin:0px 25px 0px 25px;
+}
+nav ul li a{
+	text-decoration: none; /*  remove line with link: https://getcssscan.com/blog/how-to-remove-underline-from-link-css#:~:text=To%20remove%20underline%20from%20a%20link%20with%20CSS%2C%20add%20text,decoration%3A%20none%20to%20yo*/
+	color: #E6E5A3;
+	text-shadow: 1px 1px 4px #557153; /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow*/
+}
+nav ul li a:hover{
+	background-color: #A9AF7E;
+	border-radius:20px; /*https://www.tutorialspoint.com/set-a-rounded-active-and-hover-button-with-css*/
+	padding:5px;
+}
+img {
+    max-width: 100%;
+    height: auto; 
+}
+footer {
+     clear: both;
+	 color: #182D09;
+     padding: 1px;
+     text-align: center;
+     margin-top: 100px;
+     font-size: 10px;
+}
+footer a{
+	text-decoration: none; /*  remove line with link: https://getcssscan.com/blog/how-to-remove-underline-from-link-css#:~:text=To%20remove%20underline%20from%20a%20link%20with%20CSS%2C%20add%20text,decoration%3A%20none%20to%20yo*/
+	color: #E6E5A3;
+}
+footer a:hover{
+	background-color: #A9AF7E;
+	border-radius:20px;
+	padding:2px;
+}
+
+
+#container {
+     width: 100%;
+     margin: 0 auto;
+     max-width: 1200px;
+}   
+#welcome {
+	/*background:#E6E5A3;*/
+	width:100%;
+	margin: 5px auto;
+	max-width: 1000px;
+	text-align: justify;
+	padding: 60px;
+}
+#welcome img{
+	width:100%
+}
+#welcome ol{
+	padding:0px 200px 0px 200px;
+	color:#557153;
+	font-size:20px;
+}
+#welcome ol li{
+	padding:10px;
+	font-family: "gill sans", arial, sans-serif;
+
+}
+#welcome h3{
+	font-size:25px;
+	font-family: courier, "times new roman", monospace;
+	padding-left:85px;
+}
+#copyRight{
+	font-size:15px;
+	color: #182D09;
+	margin-bottom: 50px;
+}
+#kahlan{
+	width: 40%;
+	float: left;
+	clear: both;
+}
+#kahlan img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#kahlan h3{
+	display: block;
+	text-align:center;
+	margin-bottom:50px;
+	font-size: 40px;
+}
+
+#aboutContactKN{
+	margin-top: 30px;
+	color: #182D09;
+	border-radius: 25px;
+	background: #73AD21;
+	padding: 20px;
+	width: 275px;
+	height: 50px;
+	
+}
+
+#aboutEmailKN{
+	text-decoration: none; /*  remove line with link: https://getcssscan.com/blog/how-to-remove-underline-from-link-css#:~:text=To%20remove%20underline%20from%20a%20link%20with%20CSS%2C%20add%20text,decoration%3A%20none%20to%20yo*/
+	color: #E6E5A3;
+}
+
+#aboutEmailKN:hover{
+	background-color: #A9AF7E;
+	border-radius:15px;
+	padding:2px;
+}
+
+#katie{
+	width: 40%;
+	float: right;
+	clear: both;
+}
+#katie img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#katie h3{
+	display: block;
+	text-align:center;
+	margin-bottom:50px;
+	font-size: 40px;
+}
+
+#aboutContactKF{
+	margin-top: 30px;
+	color: #182D09;
+	border-radius: 25px;
+	background: #73AD21;
+	padding: 20px;
+	width: 335px;
+	height: 50px;
+}
+
+#aboutEmailKF{
+	text-decoration: none; /*  remove line with link: https://getcssscan.com/blog/how-to-remove-underline-from-link-css#:~:text=To%20remove%20underline%20from%20a%20link%20with%20CSS%2C%20add%20text,decoration%3A%20none%20to%20yo*/
+	color: #E6E5A3;
+}
+
+#aboutEmailKF:hover{
+	background-color: #A9AF7E;
+	border-radius:15px;
+	padding:2px;
+}
+#twoCols{
+	width: 40%;
+	float: left;
+	padding: 60px;
+
+}
+	
+
+
+#howToCols{
+	width: 40%;
+	float: right;
+
+}
